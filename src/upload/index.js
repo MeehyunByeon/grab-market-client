@@ -67,7 +67,7 @@ function UploadPage() {
             ) : (
               <div id="upload-img-placeholder">
                 <img src="/images/icons/camera.png" />
-                <span>이미지를 업로드해주세요.</span>
+                <span>판매할 상품의 이미지를 업로드해주세요.</span>
               </div>
             )}
           </Upload>
@@ -125,7 +125,7 @@ function UploadPage() {
         </Form.Item>
         <Form.Item>
           <Button id="submit-button" size="large" htmlType="submit">
-            상품 등록하기
+            상품 등록
           </Button>
         </Form.Item>
       </Form>

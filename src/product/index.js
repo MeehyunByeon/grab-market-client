@@ -64,7 +64,7 @@ function ProductPage() {
           onClick={onClickPurchase}
           disabled={product.soldout === 1 ? true : false}
         >
-          재빨리 구매하기
+          구매하기
         </Button>
         <pre id="description">{product.description}</pre>
       </div>
